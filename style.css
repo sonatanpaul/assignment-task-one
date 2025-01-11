@@ -252,3 +252,32 @@ body {
   padding: 11px 20px 11px 20px;
   border: none;
 }
+
+.adviser-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 48px 24px 48px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  margin-bottom: 60px;
+  background: rgb(255, 255, 255);
+}
+
+.adviser-container > p {
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+}
+
+.adviser-heading {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
