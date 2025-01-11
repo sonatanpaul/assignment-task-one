@@ -43,6 +43,14 @@ body {
   border: none;
   padding: 17px 34px 17px 34px;
   background: rgb(0, 106, 80);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.common-button:hover {
+  background-color: rgb(234, 10, 10);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 /* shared css  end */
@@ -71,6 +79,13 @@ body {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.sign-button:hover {
+  background: rgb(198, 228, 214);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 
 .nav-text-logo {
@@ -195,6 +210,12 @@ body {
   text-align: left;
   padding: 11px 20px 11px 20px;
   border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.digital-card button:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 .green-card {
@@ -223,6 +244,12 @@ body {
   text-align: left;
   padding: 11px 20px 11px 20px;
   border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.green-card button:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 .modern-card {
@@ -251,6 +278,13 @@ body {
   text-align: left;
   padding: 11px 20px 11px 20px;
   border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.modern-card button:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 .adviser-container {
@@ -379,8 +413,16 @@ body {
   padding: 65px;
 }
 
+.donation-card:hover {
+  background-color: beige;
+}
+
 #special-amount {
   background: rgb(198, 228, 214);
+}
+
+#special-amount:hover {
+  background-color: beige;
 }
 
 .donation-container p {
@@ -426,6 +468,13 @@ body {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.subscribe-button:hover {
+  background-color: rgb(234, 10, 10);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 .subscribe-container p {
