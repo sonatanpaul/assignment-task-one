@@ -387,3 +387,43 @@ body {
   width: 1110px;
   text-align: center;
 }
+
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 80px 100px 80px 100px;
+  margin-bottom: 80px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-input {
+  border-radius: 8px 0px 0px 8px;
+  padding: 21px 40px 21px 40px;
+  background: rgb(255, 255, 255);
+  width: 600px;
+  border: none;
+}
+
+.subscribe-button {
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
