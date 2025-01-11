@@ -408,7 +408,7 @@ body {
 
 .subscribe-input {
   border-radius: 8px 0px 0px 8px;
-  padding: 21px 40px 21px 40px;
+  padding: 20px 40px 20px 40px;
   background: rgb(255, 255, 255);
   width: 600px;
   border: none;
@@ -426,4 +426,9 @@ body {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.subscribe-container p {
+  width: 622px;
+  text-align: center;
 }
