@@ -1,3 +1,100 @@
-body {
-  background-color: rgb(200, 200, 218);
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* shared css start */
+
+/* shared css  end */
+.main-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.sign-button {
+  padding: 15px 30px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  background-color: none;
+  color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.nav-text-logo {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* Nav Section End  */
+
+/* Banner Section Start  */
+.banner-container {
+  background-color: rgb(198, 228, 214);
+  border-radius: 24px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64;
+  padding: 80px 100px 80px 100px;
+}
+.banner-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.banner-bd-text {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner-text {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.common-button {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 8px;
+  border: none;
+  padding: 17px 34px 17px 34px;
+  background: rgb(0, 106, 80);
 }
