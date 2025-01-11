@@ -327,3 +327,63 @@ body {
   align-items: flex-start;
   gap: 12px;
 }
+
+.donation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 80px;
+}
+
+.donation-input {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  background: rgb(255, 255, 255);
+  padding: 20px 580px 20px 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.donation-amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+.donation-card {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 65px;
+}
+
+#special-amount {
+  background: rgb(198, 228, 214);
+}
+
+.donation-container p {
+  width: 1110px;
+  text-align: center;
+}
