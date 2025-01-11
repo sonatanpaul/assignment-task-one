@@ -304,9 +304,9 @@ body {
 .adviser-container > p {
   background-image: url(./assets/quote-bg.png);
   background-repeat: no-repeat;
-  padding-top: 20px;
+  padding-top: 27px;
   padding-right: 10px;
-  padding-left: 10px;
+  padding-left: 2px;
 }
 
 .adviser-heading {
