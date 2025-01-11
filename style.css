@@ -293,7 +293,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 24px;
-  padding: 48px 24px 48px 24px;
+  padding: 30px 15px 30px 15px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
@@ -304,7 +304,9 @@ body {
 .adviser-container > p {
   background-image: url(./assets/quote-bg.png);
   background-repeat: no-repeat;
-  padding: 18px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .adviser-heading {
